@@ -7,3 +7,21 @@
   box-sizing: border-box;
   text-decoration-color: none;
 }
+
+.main {
+    max-width: 100%;/*para que al hacerlo pequeno se haga pequeno*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+   /** border: black 3px solid;
+    border-radius: 20px;**/
+    margin: 24px;
+    background: #1F2937;
+  }
