@@ -12,16 +12,50 @@
     max-width: 100%;/*para que al hacerlo pequeno se haga pequeno*/
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: black;
+    overflow: hidden;
 }
 
 .container {
     width: 550px;
     height: 550px;
+    position: absolute;
    /** border: black 3px solid;
     border-radius: 20px;**/
     margin: 24px;
     background: #1F2937;
+  }
+
+  .green{
+    color: #55F991;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 52px;
+    height: 350px;
+    border-bottom: 1px solid #2F3E53 ;
+  }
+
+  .title {
+    color: white;
+    text-align: left;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 325px;
+  }
+
+  .subtitle {
+    margin-top: 10px;
+    color: #D5D4D8;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
   }
